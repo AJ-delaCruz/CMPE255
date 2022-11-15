@@ -3,15 +3,15 @@
 John Wang
 AJ Dela Cruz
 Jiayao Li
-Team 12
-CMPE-255 Project Check-in 2
-Abstract
+## Team 12
+###CMPE-255 Project Check-in 2
+####Abstract
 In 2021, the recruiting industry was a 136 billion dollar industry1 in the United States alone. However, sorting the most appropriate job for an applicant through a resume is a difficult process for both the applicant as well as the employer. This process is often manual and time consuming. In order to reduce the manual time and effort involved to properly classify an applicant, we propose using a BERT transformer to classify resumes. We plan on feeding cleaned labeled resume data into a BERT transformer in order to train the model to classify resumes. We anticipate that there will be difficulties with the time that it takes to run the model as well as accuracy issues. In order to mitigate these problems, we will try out different BERT models such as: BERT-base, Small BERT, ALBERT, Electra, BERT Experts, and BERT with Talking-Heads Attention. 
 In doing so, we hope to not only provide better automated classification of resumes but    recommend potential suggested classifications based on the BERT model. Based on previous BERT attempts with other classification problems such as comment sentiment analysis. We anticipate that we will be able to achieve around 80% accuracy with our resume classification attempts. While this is far from perfect, this method requires zero manual effort and would serve as a great starting point for the resume classification process. We hope this will greatly improve the efficiency of the resume classification process for applicants and employers.
 
-Outline
+####Outline
 
-Intro
+####Intro
 Recruiting suitable candidates for the job role is time-consuming but an important task. The number of applicants in the job market can be overwhelming. Especially with the different types of job roles existing along with the increasing number of applications from candidates. Resume classification is needed to make the process of selecting the appropriate candidates for the role easier. This tool will help recruiters identify suitable candidates based on their skill set. Applicant tracking systems “help companies in the process of recruiting new professional figures or re-assigning resources [2].” They are extensively used in the recruitment process to find candidates with the required qualifications. However, applicant tracking systems require a manual evaluation that is time-consuming. Recruiters often need to ensure that the resume isn’t manipulated using keywords. This results in inefficiency in the recruitment process of selecting the appropriate candidates for the role.
 
 This paper presents BERT to classify resumes. BERT is a language representation model that uses bidirectional representation and can create models for different processing tasks. We will use BERT for our resume-job classification project. BERT uses a masked language model (MLM) to “combine left and right context in all layers to enable a bidirectional Transformer [3].” To process our model using BERT, we will use the pre-training and fine-tuning process. Fine-tuning BERT is inexpensive compared to pre-training. We will first pre-train our model on labeled data while fine-tuning our model to be initialized with the pre-trained data. This allows us to capture the language modeling of the resume. The span of texts such as skills on a resume is differentiated by their special token and the learned embedding to show where the token belongs. BERT shows significant improvement compared to other systems.
