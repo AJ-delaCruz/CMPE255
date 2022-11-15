@@ -42,16 +42,24 @@ Conclusion
 Future
 
 Data source
+
 https://www.kaggle.com/datasets/jillanisofttech/updated-resume-dataset
 
 Google drive folder 
+
 https://drive.google.com/drive/folders/1RnSYLtA1u1u6pcJPuWQJI_Rh6px6Q29q?usp=sharing
+
 Github Repositories 
+
 John Wang: https://github.com/johnwang21/cmpe255
+
 AJ Dela Cruz:  https://github.com/AJ-delaCruz/CMPE255-Team12 
+
 Jiayao Li: https://github.com/JiayaoLi00/cmpe255
 
+
 Reference
+
 [1] https://www.statista.com/statistics/873648/us-staffing-industry-market-size/
 
 [2] A. Bondielli and F. Marcelloni, “On the use of summarization and transformer architectures for profiling résumés,” Expert Systems with Applications, vol. 184, p. 115521, 2021.
