@@ -4,8 +4,9 @@ John Wang
 AJ Dela Cruz
 Jiayao Li
 ## Team 12
-###CMPE-255 Project Check-in 2
-####Abstract
+CMPE-255 Project Check-in 2
+
+Abstract
 In 2021, the recruiting industry was a 136 billion dollar industry1 in the United States alone. However, sorting the most appropriate job for an applicant through a resume is a difficult process for both the applicant as well as the employer. This process is often manual and time consuming. In order to reduce the manual time and effort involved to properly classify an applicant, we propose using a BERT transformer to classify resumes. We plan on feeding cleaned labeled resume data into a BERT transformer in order to train the model to classify resumes. We anticipate that there will be difficulties with the time that it takes to run the model as well as accuracy issues. In order to mitigate these problems, we will try out different BERT models such as: BERT-base, Small BERT, ALBERT, Electra, BERT Experts, and BERT with Talking-Heads Attention. 
 In doing so, we hope to not only provide better automated classification of resumes but    recommend potential suggested classifications based on the BERT model. Based on previous BERT attempts with other classification problems such as comment sentiment analysis. We anticipate that we will be able to achieve around 80% accuracy with our resume classification attempts. While this is far from perfect, this method requires zero manual effort and would serve as a great starting point for the resume classification process. We hope this will greatly improve the efficiency of the resume classification process for applicants and employers.
 
